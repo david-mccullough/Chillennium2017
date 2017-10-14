@@ -76,10 +76,10 @@ ds_list_sort(global.miscObjects,1);
 
 #region // Level Editor
 
-#macro LOAD_INCLUDED_LEVELDATA false //do NOT touch this -david (keep to false)
+#macro LOAD_INCLUDED_LEVELDATA true //do NOT touch this -david (keep to false)
 
 global.levelEditorEnabled = false;
-ToggleLevelEditor(); // toggle levelEditor on
+//ToggleLevelEditor(); // toggle levelEditor on
 
 #endregion
 

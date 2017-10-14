@@ -15,3 +15,5 @@ yDepthOrigin = sprite_height-sprite_yoffset;
 angle = 0;
 scale = 1;
 canClip = false;
+
+parentType = objObject;

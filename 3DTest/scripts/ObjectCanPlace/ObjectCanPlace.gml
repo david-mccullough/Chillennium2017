@@ -7,7 +7,6 @@ var bool = true;
 if obj.canClip
 {
 	bool = true;
-	show_debug_message("wow")
 }
 else
 	{
@@ -24,7 +23,6 @@ else
 				if hit.canClip == false //if any of the colliding objects cant clip then we cant place
 				{
 					bool = false;
-					show_debug_message("other cant clip")
 					i = size
 				}
 			}

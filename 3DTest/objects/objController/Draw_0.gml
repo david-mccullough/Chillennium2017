@@ -9,11 +9,24 @@ if ds_exists(global.depthGrid, ds_type_grid)
 		new objects each row*/
 
 	// resize height to fit
-	var height = instance_number(objObject) + 1;
+	var height = instance_number(objObject) + instance_number(objEntity)+ 2;
 	ds_grid_resize(global.depthGrid,2,height);
 	
 	var yy = 0;
 	with(objObject)
+	{
+		// add id and y value to grid
+		global.depthGrid[# 0, yy] = self;
+		global.depthGrid[# 1, yy] = self.y + yDepthOrigin;
+		++yy;
+		
+		//ground items
+		if !sortDepth
+		{
+			ObjectDraw();
+		}
+	}
+	with(objEntity)
 	{
 		// add id and y value to grid
 		global.depthGrid[# 0, yy] = self;

@@ -50,7 +50,7 @@ if file_exists(filename)
 		
 			else
 			{
-				show_debug_message("ERROR: Couldn't find asset named " + asset)
+				//show_debug_message("ERROR: Couldn't find asset named " + asset)
 			}
 		}
 	} 
@@ -60,6 +60,6 @@ if file_exists(filename)
 }
 else
 {
-	show_message_async("ERROR: Couldn't find level data for " + filename)
+	//show_message_async("ERROR: Couldn't find level data for " + filename)
 }
 
