@@ -6,7 +6,9 @@
     "children": [
         "c0ea00b7-5210-40b1-ba36-6ecea353dadc",
         "5fc11cf5-6726-428d-a3f4-c3c095111214",
-        "4ee61746-5ca7-49e5-b27f-8adea0fa0c79"
+        "4ee61746-5ca7-49e5-b27f-8adea0fa0c79",
+        "80cdb192-06bf-436d-91e8-de3024833926",
+        "fc3f6365-09a2-41b3-8c6b-9ef1a61fe6ee"
     ],
     "filterType": "GMSprite",
     "folderName": "GUI",

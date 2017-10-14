@@ -8,6 +8,7 @@ if !global.levelEditorEnabled
 		instance_create_layer(x,y,depth,objLevelEditor);
 	}
 	global.levelEditorEnabled = true;
+	objCursor.gui = true;
 }
 /// Disable
 else
@@ -19,4 +20,5 @@ else
 		instance_deactivate_object(objLevelEditor)
 	}
 	global.levelEditorEnabled = false;
+	objCursor.gui = false;
 }

@@ -2,7 +2,18 @@
 // You can write your code in this editor
 event_inherited();
 
-target = objLevelEditor;
-spd = irandom(2)
+desiredTarget = objStudent
+target = noone;
+moveSpeed = irandom(1);
 
-angle = 0;
+aggroDist = 64
+
+enum enemyCue
+{
+	ground,
+	air
+}
+
+onGround = true;
+patternIndex = 0
+pattern[0] = 0; //example: nium winged slug: 1,0

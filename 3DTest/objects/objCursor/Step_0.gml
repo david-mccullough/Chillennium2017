@@ -3,6 +3,30 @@
 x = round(mouse_x);
 y = round(mouse_y);
 
+if !gui
+{
+
+if instance_exists(objPlayer)
+{
+	switch(objPlayer.control.state)
+	{
+		case playerState.idle:
+			sprite_index = sprCursorMove;
+		break;
+	
+		case playerState.dash:
+			sprite_index = sprCursor;
+		break;
+	
+		case playerState.bow:
+			sprite_index = sprCursorBow;
+		break;
+	}
+}
+else
+{
+	sprite_index = sprCursor
+}
 
 switch state
 {
@@ -12,8 +36,7 @@ switch state
 		if mblPressed
 		{
 			state = mouseState.pressed;
-	
-			
+
 		}
 
 		//hover
@@ -35,6 +58,7 @@ switch state
 	case mouseState.disabled:
 		//change sprite or alpha maybe
 		break;
+}
 }
 
 if gui = true

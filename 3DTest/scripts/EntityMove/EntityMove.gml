@@ -9,8 +9,8 @@ var ytarg = y+lengthdir_y(spd,dir);
  
 if ObjectFree(xtarg,ytarg,objObject)
 {
-    x = xtarg;
-    y = ytarg;
+    x = round(xtarg);
+    y = round(ytarg);
 }
 else 
 {
@@ -25,8 +25,8 @@ else
             ytarg = y+lengthdir_y(spd, angle_to_check);     
             if ObjectFree(xtarg,ytarg,objObject)
 			{
-                x = xtarg;
-                y = ytarg;  
+                x = round(xtarg);
+                y = round(ytarg);  
                 exit;       
             }   
         }

@@ -7,3 +7,6 @@ student = instance_create_depth(stuSpawnPos[0],stuSpawnPos[1],0,objStudent);
 master = instance_create_depth(masSpawnPos[0],masSpawnPos[1],0,objMaster);
 
 control = student;
+
+isLocked = false
+
