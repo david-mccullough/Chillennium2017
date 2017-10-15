@@ -19,7 +19,19 @@ switch (parentType)
 		
 	case objEntity:
 
-		draw_self();
+		if isSat
+		{
+		shader_set(shSaturation);
+		shader_set_uniform_f(saturation, var_saturation);
+
+		draw_sprite_ext(sprite_index,-1,x,y,image_xscale,image_yscale,image_angle,image_color,image_alpha);  
+		//draw_self()
+		shader_reset();
+
+		}
+		
+
+
 		
 		break;
 }

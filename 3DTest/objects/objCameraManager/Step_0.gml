@@ -13,14 +13,14 @@ if(keyboard_check_pressed(vk_enter))
 
 //level editor zoom
 if global.levelEditorEnabled && keyboard_check(vk_alt)*/ if true
-{
+/*{
 	desired_zoom += (mouse_wheel_up()-mouse_wheel_down())*.1;
 	desired_zoom = clamp(desired_zoom,.6,5);
 	if(mouse_check_button_pressed(mb_middle))
 		desired_zoom=1;
 
 	current_zoom = approach(current_zoom,desired_zoom,.03);
-}
+}/*
 
 #endregion
 

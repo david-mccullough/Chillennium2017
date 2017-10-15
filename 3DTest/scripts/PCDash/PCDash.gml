@@ -9,4 +9,5 @@ with argument0
 	
 	xTarget = objCursor.x;
 	yTarget = objCursor.y;
+	dir = point_direction(x,y,objCursor.x, objCursor.y);
 }

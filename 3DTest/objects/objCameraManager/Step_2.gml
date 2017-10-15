@@ -10,6 +10,10 @@ view_center(_center[0],_center[1]);
 
 
 ///Follow the player
+if follow_target == objPlayer && instance_exists(objPlayer)
+{
+	follow_target = objPlayer.control;
+}
 if(!global.levelEditorEnabled && instance_exists(follow_target))
 { //Only move the camera if an instance of our player exists
 	//max_speed = follow_target.move_speed;

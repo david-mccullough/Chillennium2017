@@ -12,3 +12,6 @@ else
 }
 
 EntityMove(currentSpeed, dir);
+
+
+

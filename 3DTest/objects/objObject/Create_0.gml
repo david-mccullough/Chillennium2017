@@ -17,8 +17,3 @@ scale = 1;
 canClip = false;
 
 parentType = objObject;
-
-camdist = (distance_to_point(global.camx,global.camy))
-camxoff = global.camx - x;
-camyoff = global.camy - y;
-camdir = show_debug_message(point_direction(global.camx,global.camy,x,y)-objCameraManager.angle)

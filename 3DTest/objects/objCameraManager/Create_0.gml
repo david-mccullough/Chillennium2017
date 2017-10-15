@@ -19,7 +19,7 @@ desired_zoom=1;
 current_zoom=desired_zoom;
 
 //Target tracking
-follow_target = noone;
+follow_target = objPlayer;
 velocity = vect2(0,0);
 steering = vect2(0,0);
 

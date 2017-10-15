@@ -4,8 +4,8 @@
 /// @param direction
 with(objCameraManager)
 {
-  screen_shake_amp=abs(argument[0]);
-  screen_shake_start=timer;
-  screen_shake_length=argument[1];
-  screen_shake_direction=argument[2];
+	screen_shake_amp=abs(argument[0]);
+	screen_shake_start=timer;
+	screen_shake_length=argument[1];
+	screen_shake_direction=argument[2];
 }

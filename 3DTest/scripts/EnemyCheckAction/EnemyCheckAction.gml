@@ -6,8 +6,13 @@ var bool = false;
 
 with argument0
 {
+	//show_debug_message(string(act) + " " + string(pattern[patternIndex]))
 	if (act == pattern[patternIndex])
 	{
+		canDamage= false;
+		invuln= true;
+		alarm[3] = 20;
+		
 		//success
 		bool = true;
 		patternIndex+=1;

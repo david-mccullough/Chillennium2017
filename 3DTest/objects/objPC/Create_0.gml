@@ -4,10 +4,17 @@ event_inherited()
 
 state = playerState.idle
 
-dashSpeed = 8;
+invuln = false;
+iframes = room_speed*2;
+
 bowSpeed = -1
-
+dashSpeed = 8;
 dashDecelStart = 0.1;
-dashDecelEnd = .4
+dashDecelEnd = .3
 dashDecelStep = .01
+canDash = true;
+dashCool = room_speed;
 
+action = false;
+
+hp = 3;

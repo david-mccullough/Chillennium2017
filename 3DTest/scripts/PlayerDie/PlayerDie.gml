@@ -1,0 +1,1 @@
+var inst = argument0
