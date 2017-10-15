@@ -1,4 +1,5 @@
 /// @description init defaults
+event_inherited()
 canClip = false;
 yDepthOrigin = sprite_height-sprite_yoffset;
 sortDepth = true

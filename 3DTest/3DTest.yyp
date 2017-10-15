@@ -655,14 +655,6 @@
             }
         },
         {
-            "Key": "6106b2af-4365-46d5-a1fd-7eb099ed1001",
-            "Value": {
-                "id": "a1781482-ad3a-4a03-8ee9-c956a3321cfa",
-                "resourcePath": "sprites\\sprite22\\sprite22.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "60d151c6-8357-4da8-bc90-707b44072be1",
             "Value": {
                 "id": "ae38e3c4-6141-4330-bbfd-74f4a4c527ea",
@@ -675,6 +667,14 @@
             "Value": {
                 "id": "534bfc7c-09d2-4807-abd7-b86683e97b8a",
                 "resourcePath": "sprites\\spr3dRocks1\\spr3dRocks1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6106b2af-4365-46d5-a1fd-7eb099ed1001",
+            "Value": {
+                "id": "a1781482-ad3a-4a03-8ee9-c956a3321cfa",
+                "resourcePath": "sprites\\sprite22\\sprite22.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "662746f1-9aff-475f-95f2-a2c7fd35919a",
+            "Value": {
+                "id": "8c90b42b-7f87-4f0a-99d6-126d411bcfa7",
+                "resourcePath": "objects\\objParent\\objParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "689f540a-4255-4c3e-a915-90e30ab59fa7",
             "Value": {
                 "id": "6e4357ee-d256-49ed-9260-e3dc99266f0a",
@@ -727,6 +735,14 @@
             }
         },
         {
+            "Key": "6cbf60e6-6dd3-4007-9100-613cd4b153a4",
+            "Value": {
+                "id": "66bc3537-857f-4a63-914c-ad33eae45416",
+                "resourcePath": "sprites\\spr3dCandle1\\spr3dCandle1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6cdf6857-a6f2-4c45-a350-6fe90026fd7a",
             "Value": {
                 "id": "d14973c7-d906-4c8b-9618-64f14b40d19d",
@@ -739,14 +755,6 @@
             "Value": {
                 "id": "ac756429-98a3-4558-9159-56c625a8a97b",
                 "resourcePath": "sprites\\sprETripleA\\sprETripleA.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6cbf60e6-6dd3-4007-9100-613cd4b153a4",
-            "Value": {
-                "id": "66bc3537-857f-4a63-914c-ad33eae45416",
-                "resourcePath": "sprites\\spr3dCandle1\\spr3dCandle1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1159,19 +1167,19 @@
             }
         },
         {
-            "Key": "991073f8-271e-41a5-8607-b1e943c406c3",
-            "Value": {
-                "id": "3e409d76-b489-432a-8006-acc576b4e1e0",
-                "resourcePath": "objects\\guiParent\\guiParent.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "98aa5a40-ebdc-41de-8c26-c29873b10af2",
             "Value": {
                 "id": "6a042636-b7e3-49a6-bf01-083f73aec030",
                 "resourcePath": "sprites\\spr3dGrassCut1\\spr3dGrassCut1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "991073f8-271e-41a5-8607-b1e943c406c3",
+            "Value": {
+                "id": "3e409d76-b489-432a-8006-acc576b4e1e0",
+                "resourcePath": "objects\\guiParent\\guiParent.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -80,7 +80,7 @@ switch (state)
 		/// Get top most object currently focused
 		var tempListNum = 0
 		// get list of all objects at cursor position
-		var hitList = instance_place_list(x, y, objObject);
+		var hitList = instance_place_list(x, y, objParent);
 		if (hitList)
 		{
 			// find and store top most object
