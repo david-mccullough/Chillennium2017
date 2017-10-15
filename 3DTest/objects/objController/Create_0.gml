@@ -35,6 +35,45 @@ draw_set_font(F_DEBUG)
 	#macro O_DBARREL1	"3dWoodenBarrel"
 	ds_map_add(global.objectMap, O_DBARREL1, obj3D);
 	ds_list_add(global.d3dObjects, O_DBARREL1);
+	#macro O_DROCKS1	"3dRocks1"
+	ds_map_add(global.objectMap, O_DROCKS1, obj3D);
+	ds_list_add(global.d3dObjects, O_DROCKS1);
+	#macro O_DBUSH1	"3dBush1"
+	ds_map_add(global.objectMap, O_DBUSH1, obj3D);
+	ds_list_add(global.d3dObjects, O_DBUSH1);
+	#macro O_DTALLGRASS1	"3dTallGrass1"
+	ds_map_add(global.objectMap, O_DTALLGRASS1, obj3D);
+	ds_list_add(global.d3dObjects, O_DTALLGRASS1);
+	#macro O_DCANDLE1	"3dCandle1"
+	ds_map_add(global.objectMap, O_DCANDLE1, obj3D);
+	ds_list_add(global.d3dObjects, O_DCANDLE1);
+	#macro O_DCHAIR1	"3dChair1"
+	ds_map_add(global.objectMap, O_DCHAIR1, obj3D);
+	ds_list_add(global.d3dObjects, O_DCHAIR1);
+	#macro O_DTREE1	"3dTree1"
+	ds_map_add(global.objectMap, O_DTREE1, obj3D);
+	ds_list_add(global.d3dObjects, O_DTREE1);
+	#macro O_DBAMBOO1	"3dBamboo1"
+	ds_map_add(global.objectMap, O_DBAMBOO1, obj3D);
+	ds_list_add(global.d3dObjects, O_DBAMBOO1);
+	#macro O_DBAMBOO2	"3dBamboo2"
+	ds_map_add(global.objectMap, O_DBAMBOO2, obj3D);
+	ds_list_add(global.d3dObjects, O_DBAMBOO2);
+	#macro O_DLANTERN1	"3dLantern1"
+	ds_map_add(global.objectMap, O_DLANTERN1, obj3D);
+	ds_list_add(global.d3dObjects, O_DLANTERN1);
+	#macro O_DBLOB1	"3dBlob1"
+	ds_map_add(global.objectMap, O_DBLOB1, obj3D);
+	ds_list_add(global.d3dObjects, O_DBLOB1);
+	#macro O_DBUSH2	"3dBush2"
+	ds_map_add(global.objectMap, O_DBUSH2, obj3D);
+	ds_list_add(global.d3dObjects, O_DBUSH2);
+	#macro O_DGRASSCUT1	"3dGrassCut1"
+	ds_map_add(global.objectMap, O_DGRASSCUT1, obj3D);
+	ds_list_add(global.d3dObjects, O_DGRASSCUT1);
+	#macro O_DCOTTAGE1	"3dCottage1"
+	ds_map_add(global.objectMap, O_DCOTTAGE1, obj3D);
+	ds_list_add(global.d3dObjects, O_DCOTTAGE1);
 	
 	#endregion
 	

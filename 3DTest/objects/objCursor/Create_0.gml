@@ -9,4 +9,4 @@ enum mouseState
 
 state = mouseState.idle;
 hit = noone;
-gui = false
+gui = true

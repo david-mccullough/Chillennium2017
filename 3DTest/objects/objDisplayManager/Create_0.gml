@@ -1,7 +1,7 @@
 ///Properties
 ideal_width=0; //Doesn't matter because we are going to calculate this.
 ideal_height=256; 
-zoom = 3;
+zoom = 2;
 max_zoom=1;
 min_zoom=2;
 use_sub_pixels=true;
@@ -34,7 +34,5 @@ gui_x_scale = ideal_width///objCameraManager.cameraWidth;
 gui_y_scale = ideal_height//objCameraManager.cameraHeight/global.displayHeight;
 
 room_goto_next();
-
 alarm[0]=1; //Center Window
 alarm[2]=1; //Change Zoom
-

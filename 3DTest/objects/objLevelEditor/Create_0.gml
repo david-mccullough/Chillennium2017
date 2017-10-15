@@ -190,7 +190,7 @@ PanelAttach(d3dPG, d3dPanel, 0,0,true);
 d3dPG.name= "3D Object Pages"
 
 /// Create panels for however pages are necessary to fit all resources of d3d type
-PopulateResourcePanel(global.d3dObjects,d3dPG,12,16);
+PopulateResourcePanel(global.d3dObjects,d3dPG,10,16);
 
 ///-------------------d2d panel
 d2dPanel = gui_create(0,0,dd,guiPanel,myGUI);
@@ -203,7 +203,7 @@ d2dPG = gui_create(0,0,dd,guiPanelGroup,myGUI);
 PanelAttach(d2dPG, d2dPanel, 0,0,true);
 d2dPG.name= "2D Object Pages"
 
-PopulateResourcePanel(global.d2dObjects,d2dPG,8,16);
+PopulateResourcePanel(global.d2dObjects,d2dPG,10,16);
 
 ///-------------------ent panel
 entPanel = gui_create(0,0,dd,guiPanel,myGUI);
@@ -216,7 +216,7 @@ entPG = gui_create(0,0,dd,guiPanelGroup,myGUI);
 PanelAttach(entPG, entPanel, 0,0,true);
 entPG.name= "Entity Object Pages"
 
-PopulateResourcePanel(global.entObjects,entPG,8,16);
+PopulateResourcePanel(global.entObjects,entPG,10,16);
 
 ///-------------------oth panel
 othPanel = gui_create(0,0,dd,guiPanel,myGUI);
@@ -229,7 +229,7 @@ othPG = gui_create(0,0,dd,guiPanelGroup,myGUI);
 PanelAttach(othPG, othPanel, 0,0,true);
 othPG.name= "Other Object Pages"
 
-PopulateResourcePanel(global.miscObjects,othPG,8,16);
+PopulateResourcePanel(global.miscObjects,othPG,10,16);
 
 
 PanelGroupReset(d2dPG,0);
