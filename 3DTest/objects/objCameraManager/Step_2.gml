@@ -33,10 +33,30 @@ if(!global.levelEditorEnabled && instance_exists(follow_target))
 	}
 	else if(_dist < approach_distance)
 	{
+		view_x = smooth_approach(view_x, _x, vel)
+		view_y = smooth_approach(view_y, _y, vel)
+		vel = approach(vel,spd1,.002)
+	}
+	else
+	{
+		view_x = smooth_approach(view_x, _x, vel)
+		view_y = smooth_approach(view_y, _y, vel)
+		vel = approach(vel,spd2,.002)
+	}
+	/*else if(_dist < approach_distance)
+	{
 		steering = sb_approach(	_pos,
 								velocity,
 								_tar_vect,
 								max_speed,
+								approach_distance);
+	}
+	else if(_dist < quick_distance)
+	{
+		steering = sb_approach(	_pos,
+								velocity,
+								_tar_vect,
+								max_speed*10,
 								approach_distance);
 	}
 	else
@@ -44,12 +64,12 @@ if(!global.levelEditorEnabled && instance_exists(follow_target))
 		steering = sb_seek(	_pos,
 							velocity,
 							_tar_vect,
-							max_speed);
+							max_speed*10);
 	}
 	steering = vect2_truncate(steering,max_force);
 	velocity = vect2_add(velocity,steering);
 	view_x+=velocity[0];
-	view_y+=velocity[1];
+	view_y+=velocity[1];*/
 									 
 }
 else

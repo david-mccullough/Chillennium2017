@@ -13,7 +13,7 @@ with argument0
 		//show_debug_message(state == playerState.dash and act != action)
 		//success
 		bool = true;
-		show_debug_message("player took hit")
+		show_debug_message(string(current_second) + ": player took hit")
 		hp = clamp(hp-1,0,10)
 		invuln= true;
 		alarm[0] = iframes;

@@ -14,18 +14,21 @@ with argument0
 		alarm[3] = 20;
 		
 		//success
+		Sleep(80);
+		screen_shake(5,20,irandom(360))
+		
 		bool = true;
 		patternIndex+=1;
 		if patternIndex == array_length_1d(pattern)
 		{
 			//defeated!
 			EnemyDie(id);
+			
 		}
 		else
 		{
 			//next pattern state
 			patternState = pattern[patternIndex]
-			//TODO flash!!!
 		}	
 	}
 	else

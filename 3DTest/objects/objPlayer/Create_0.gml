@@ -1,8 +1,8 @@
 /// @description
 if !instance_exists(objPC)
 {
-	stuSpawnPos = vect2(0,0);
-	masSpawnPos = vect2(16,32);
+	stuSpawnPos = vect2(64,128);
+	masSpawnPos = vect2(128,64);
 	globalvar student;
 	globalvar master;
 	student = instance_create_depth(stuSpawnPos[0],stuSpawnPos[1],0,objStudent);

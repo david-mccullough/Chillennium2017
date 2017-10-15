@@ -9,6 +9,7 @@ with argument0
 	
 	dir = point_direction(x,y,xTarget, yTarget);
 	
+	
 	alarm[2] = dashCool;
 	canDash = false;
 }

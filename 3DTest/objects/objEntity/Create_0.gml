@@ -24,6 +24,9 @@ yTarget = ystart;
 parentType = objEntity;
 
 angle= 0;
+is3D = false;
+type = drawType.static;
+sep = 1;
 
 enum playerState
 {

@@ -8,7 +8,7 @@ invuln = false;
 iframes = room_speed*2;
 
 bowSpeed = -1
-dashSpeed = 8;
+dashSpeed = 9;
 dashDecelStart = 0.1;
 dashDecelEnd = .3
 dashDecelStep = .01
