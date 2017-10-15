@@ -89,9 +89,30 @@ draw_set_font(F_DEBUG)
 	#region //Entity
 	global.entObjects = ds_list_create();
 	
-	//#macro O_PUDDLE		"Puddle"
-	ds_map_add(global.objectMap, "notReal", objEntity);
-	ds_list_add(global.entObjects,O_PUDDLE);
+	#macro O_STUDENT	"Student"
+	ds_map_add(global.objectMap, O_STUDENT, objStudent);
+	ds_list_add(global.entObjects,O_STUDENT);
+	#macro O_MASTER		"Master"
+	ds_map_add(global.objectMap, O_MASTER, objMaster);
+	ds_list_add(global.entObjects,O_MASTER);
+	#macro O_ENEMYSA	"ESingleA"
+	ds_map_add(global.objectMap, O_ENEMYSA, objESingleA);
+	ds_list_add(global.entObjects,O_ENEMYSA);
+	#macro O_ENEMYSB	"ESingleB"
+	ds_map_add(global.objectMap, O_ENEMYSB, objESingleB);
+	ds_list_add(global.entObjects,O_ENEMYSB);
+	#macro O_ENEMYDA	"EDoubleA"
+	ds_map_add(global.objectMap, O_ENEMYDA, objEDoubleA);
+	ds_list_add(global.entObjects,O_ENEMYDA);
+	#macro O_ENEMYDB	"EDoubleB"
+	ds_map_add(global.objectMap, O_ENEMYDB, objEDoubleB);
+	ds_list_add(global.entObjects,O_ENEMYDB);
+	#macro O_ENEMYTA	"ETripleA"
+	ds_map_add(global.objectMap, O_ENEMYTA, objETripleA);
+	ds_list_add(global.entObjects,O_ENEMYTA);
+	#macro O_ENEMYTB	"ETripleB"
+	ds_map_add(global.objectMap, O_ENEMYTB, objETripleB);
+	ds_list_add(global.entObjects,O_ENEMYTB);	
 	
 	#endregion
 	

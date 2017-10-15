@@ -2,7 +2,27 @@
 // You can write your code in this editor
 event_inherited();
 
-target = objLevelEditor;
-spd = irandom(2)
+desiredTarget = objStudent
+target = noone;
+moveSpeed = 1
+defaultSpeed = 1
 
-angle = 0;
+dashSpeed = 4;
+dashDecelStart = 0.05;
+dashDecelEnd = .08
+dashDecelStep = .01
+dashDist = 32
+
+canDamage = true
+
+aggroDist = 160
+
+state = playerState.idle
+
+canDash = true;
+dashCool = room_speed*2;
+
+patternIndex = 0
+pattern[0] = 0; //example: nium winged slug: 1,0
+
+image_alpha = 1

@@ -26,3 +26,6 @@ controlHeld = keyboard_check(vk_control)
 altPressed = keyboard_check_pressed(vk_alt)
 altHeld = keyboard_check(vk_alt)
 
+globalvar spacePressed;
+spacePressed = keyboard_check_pressed(vk_space)
+

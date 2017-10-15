@@ -19,7 +19,7 @@ desired_zoom=1;
 current_zoom=desired_zoom;
 
 //Target tracking
-follow_target = noone;
+follow_target = objPlayer;
 velocity = vect2(0,0);
 steering = vect2(0,0);
 
@@ -51,3 +51,8 @@ screen_flash_length=-1;
 
 angle = 0;
 angleTarget = 0;
+
+angleSpeed = 0.25;
+
+global.camx = view_x+view_w/2
+global.camy = view_y+view_h/2

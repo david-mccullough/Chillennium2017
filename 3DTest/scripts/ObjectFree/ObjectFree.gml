@@ -23,6 +23,4 @@ if (hitList != noone)
 if ds_exists(hitList, ds_type_list)
 ds_list_destroy(hitList);
 
-show_debug_message(bool)
-
 return bool

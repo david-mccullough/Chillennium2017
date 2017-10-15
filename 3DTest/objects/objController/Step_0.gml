@@ -11,6 +11,10 @@ else if keyboard_check_pressed(vk_add)
 	room_goto_next()
 }
 
+if keyboard_check_pressed(vk_enter)
+{
+	game_restart()
+}
 if keyboard_check_pressed(vk_escape)
 {
 	GameClose();

@@ -8,6 +8,7 @@ if !global.levelEditorEnabled
 		instance_create_layer(x,y,depth,objLevelEditor);
 	}
 	global.levelEditorEnabled = true;
+	
 }
 /// Disable
 else
