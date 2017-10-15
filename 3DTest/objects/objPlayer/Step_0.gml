@@ -1,4 +1,10 @@
 /// @description
+if global.levelEditorEnabled
+{
+	exit;
+}
+
+
 with control
 {
 	switch state

@@ -52,6 +52,11 @@ if(!global.levelEditorEnabled && instance_exists(follow_target))
 	view_y+=velocity[1];
 									 
 }
+else
+{
+	var _x=view_w/2;
+	var _y=view_h/2;
+}
 
 ///Apply Camera Shake
 if(timer < screen_shake_start+screen_shake_length && screen_shake_amp > 0)

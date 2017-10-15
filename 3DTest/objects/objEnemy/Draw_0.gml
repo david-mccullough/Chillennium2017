@@ -21,4 +21,4 @@ if percent_chance(20) && patternIndex != array_length_1d(pattern)-1
 }
 
 //draw_circle(x,y,aggroDist,true)
-draw_text(x,y+20,"state: " + string(state) + "\canDamage: " + string(canDamage) + "\ncurrentSpeed: " + string(currentSpeed))
+//draw_text(x,y+20,"state: " + string(state) + "\canDamage: " + string(canDamage) + "\ncurrentSpeed: " + string(currentSpeed))

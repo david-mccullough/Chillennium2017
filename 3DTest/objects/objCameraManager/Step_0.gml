@@ -1,7 +1,3 @@
-#region 
-
-var prevAngle = angle;
-
 global.camx = view_x+view_w/2
 global.camy = view_y+view_h/2
 // Shake, Flash, Zoom
@@ -12,7 +8,7 @@ if(keyboard_check_pressed(vk_enter))
 	screen_flash(room_speed*.25,c_white);
 
 //level editor zoom
-if global.levelEditorEnabled && keyboard_check(vk_alt)*/ if true
+if global.levelEditorEnabled && keyboard_check(vk_alt) if true*/
 /*{
 	desired_zoom += (mouse_wheel_up()-mouse_wheel_down())*.1;
 	desired_zoom = clamp(desired_zoom,.6,5);
@@ -20,12 +16,11 @@ if global.levelEditorEnabled && keyboard_check(vk_alt)*/ if true
 		desired_zoom=1;
 
 	current_zoom = approach(current_zoom,desired_zoom,.03);
-}/*
-
-#endregion
+}*/
 
 
-/*if keyboard_check_pressed(vk_left)
+
+if keyboard_check_pressed(vk_left)
 {
 	angleTarget -= 45;
 }
@@ -35,7 +30,7 @@ else if keyboard_check_pressed(vk_right)
 }
 angleTarget = wrap(angleTarget,0,359)
 
-
+/*
 if angle != angleTarget
 {
 	angle = angleTarget//smooth_approach(angle, angleTarget, angleSpeed);
@@ -46,7 +41,7 @@ if angle != angleTarget
 		PivotObject(id,vect2(x,y),theta)
 	}
 }
-*/
+
 /*if angle != angleTarget
 {
 	angle = angleTarget//smooth_approach(angle, angleTarget, angleSpeed);

@@ -1,4 +1,8 @@
 /// @description
+if global.levelEditorEnabled
+{
+	exit;
+}
 
 dir = point_direction(x,y,xTarget,yTarget);
 

@@ -1,5 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+if global.levelEditorEnabled
+{
+	exit;
+}
+
+
 if percent_chance(40) && state = playerState.dash
 {
 	repeat(choose(2,3,4))

@@ -1,5 +1,11 @@
 /// @description Insert description here
 // You can write your code in this edito
+if global.levelEditorEnabled
+{
+	exit;
+}
+
+
 if instance_exists(desiredTarget)
 {
 	target = desiredTarget;

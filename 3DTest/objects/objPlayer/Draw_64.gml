@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-for (var i = 2; i >= control.hp; i--)
+if !global.levelEditorEnabled
 {
-	hpHearts[i].image_index = 1;
+	for (var i = 2; i >= control.hp; i--)
+	{
+		hpHearts[i].image_index = 1;
+	}
 }

@@ -3,6 +3,10 @@
 x = round(mouse_x);
 y = round(mouse_y);
 
+gui = global.levelEditorEnabled
+
+event_user(10);
+
 if !gui
 {
 
@@ -61,7 +65,6 @@ switch state
 }
 }
 
-if gui = true
-{ 
-	event_user(10);
-}
+
+	
+
