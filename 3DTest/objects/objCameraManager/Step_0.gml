@@ -28,12 +28,12 @@ else if keyboard_check_pressed(vk_right)
 {
 	angleTarget += 45;
 }
-angleTarget = wrap(angleTarget,0,359)
 
-/*
 if angle != angleTarget
 {
-	angle = angleTarget//smooth_approach(angle, angleTarget, angleSpeed);
+	angle = smooth_approach(angle, angleTarget, angleSpeed);
+}
+/*
 	show_debug_message("camera angle: " + string(angle))
 	var theta = angle;
 	with objObject

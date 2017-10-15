@@ -7,12 +7,15 @@ if ghostObject == noone
 	ghostObject.identity = editIdentity
 	ghostObject.visible = false;
 }
-if editIdentity != ghostObject.identity
+if instance_exists(ghostObject)
 {
-	instance_destroy(ghostObject)
-	ghostObject = instance_create_depth(-999,-999,0,editObject)
-	ghostObject.identity = editIdentity
-	ghostObject.visible = false;
+	if editIdentity != ghostObject.identity
+	{
+		instance_destroy(ghostObject)
+		ghostObject = instance_create_depth(-999,-999,0,editObject)
+		ghostObject.identity = editIdentity
+		ghostObject.visible = false;
+	}
 }
 
 
