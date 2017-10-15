@@ -3,7 +3,8 @@
 x = round(mouse_x);
 y = round(mouse_y);
 
-
+if !gui
+{
 switch state
 {
 	case mouseState.idle:
@@ -35,6 +36,7 @@ switch state
 	case mouseState.disabled:
 		//change sprite or alpha maybe
 		break;
+}
 }
 
 if gui = true
