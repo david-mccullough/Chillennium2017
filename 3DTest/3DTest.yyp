@@ -463,14 +463,6 @@
             }
         },
         {
-            "Key": "3f42c48b-46bb-4bd6-8090-340f712bd3fd",
-            "Value": {
-                "id": "92edd062-b350-4605-9279-44716e68072f",
-                "resourcePath": "rooms\\rmSetup\\rmSetup.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "3fabe446-55a5-4b87-bacc-9d017345fb45",
             "Value": {
                 "id": "a87a0864-2dc3-4620-a638-65ca0a798f25",
@@ -919,14 +911,6 @@
             }
         },
         {
-            "Key": "797ccc18-396a-497d-98c4-ffcfb273ca54",
-            "Value": {
-                "id": "7fa7080a-73f9-4515-8e82-fefd2c4d3a35",
-                "resourcePath": "rooms\\rmTest\\rmTest.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "7a47e7fe-9d6f-4bd6-81f4-0d1daf6e34b1",
             "Value": {
                 "id": "65430ddb-9c36-46cd-8f20-b3f714828a11",
@@ -1076,14 +1060,6 @@
                 "id": "052277f2-a471-4e7d-8918-263023bb0130",
                 "resourcePath": "sprites\\icoCamera\\icoCamera.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "89d706f5-2265-4404-ba21-e8feefc0b7a6",
-            "Value": {
-                "id": "b2e0c0ad-d8ce-494a-9161-a6f68f7758fe",
-                "resourcePath": "rooms\\rmArena\\rmArena.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -1439,14 +1415,6 @@
             }
         },
         {
-            "Key": "aea515c0-48c7-4c12-83c4-666654487e5b",
-            "Value": {
-                "id": "99a4f6f9-599a-407c-ba56-cca72ec0804f",
-                "resourcePath": "rooms\\room1\\room1.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "b0cb3592-6a2b-4337-8452-8ce027d519e7",
             "Value": {
                 "id": "c976b8fa-e361-4d04-adb9-a137c37394c1",
@@ -1524,14 +1492,6 @@
                 "id": "6a34d0d2-01f4-4947-8707-7ff800c8c8a8",
                 "resourcePath": "objects\\objController\\objController.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "bc08cd3b-18a4-4878-b6f9-fae7711c1421",
-            "Value": {
-                "id": "07594739-1e33-44a1-b7e2-b969b68c1ade",
-                "resourcePath": "rooms\\rmBLANK\\rmBLANK.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
