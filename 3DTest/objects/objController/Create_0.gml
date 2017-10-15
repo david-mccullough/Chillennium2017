@@ -140,6 +140,10 @@ ds_list_sort(global.miscObjects,1);
 
 global.levelEditorEnabled = false;
 ToggleLevelEditor(); // toggle levelEditor on
+if global.levelEditorEnabled = false && instance_exists(objLevelEditor)
+{
+	instance_destroy(objLevelEditor)
+}
 
 #endregion
 
