@@ -22,7 +22,7 @@ with objEnemy
 
 objWaves.init = false
 
-var tline;
+var tline = noone;
 switch argument0
 {
 	case 0:
@@ -36,18 +36,21 @@ switch argument0
 	case 2:
 		tline= tLessonThree;
 	break;
-	case 4:
+	case 3:
 		tline= tBoss;
 	break;
-	case 5:
+	case 4:
 		//TODO WIN
+		
 	break;
 }
-
-with objMaster
+if tline != noone
 {
-	timeline_index = tline
-	timeline_position = 0
-	timeline_running = true;
-	timeline_loop = false;
+	with objMaster
+	{
+		timeline_index = tline
+		timeline_position = 0
+		timeline_running = true;
+		timeline_loop = false;
+	}
 }

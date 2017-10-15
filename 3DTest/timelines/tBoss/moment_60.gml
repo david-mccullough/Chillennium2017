@@ -1,5 +1,5 @@
-master.visible = false;
-repeat(choose(8))
+master.canDraw = false;
+repeat(choose(8,9))
 {
 	var w = sprite_width;
 	var h = sprite_height;

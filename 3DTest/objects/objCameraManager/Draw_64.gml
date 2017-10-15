@@ -13,5 +13,5 @@ if(timer < screen_flash_start + screen_flash_length)
   draw_set_alpha(1);
 }
 
-draw_circle(view_x+view_w/2,view_x+view_h/2,4,false)
+//draw_circle(view_x+view_w/2,view_x+view_h/2,4,false)
 

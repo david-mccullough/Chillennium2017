@@ -4,15 +4,13 @@ switch argument0
 	
 		ds_list_clear(waves)
 		var wave = 0;
-		wave[0] = O_ENEMYBB
+		wave[0] = O_ENEMYSA
 
 		ds_list_add(waves,wave)
 
 		var wave = 0
-		wave[0] = O_ENEMYBA
-		wave[1] = O_ENEMYBB
-
-
+		wave[0] = O_ENEMYSA
+		wave[1] = O_ENEMYSA
 
 		ds_list_add(waves,wave)
 

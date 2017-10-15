@@ -205,4 +205,4 @@ else if LOAD_INCLUDED_LEVELDATA
 global.levels = ds_list_create();
 //LoadLevelList();
 
-global.phase = 0;
+global.phase = 3;

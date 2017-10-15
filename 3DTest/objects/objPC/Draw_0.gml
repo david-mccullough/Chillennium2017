@@ -5,6 +5,7 @@ if global.levelEditorEnabled
 	exit;
 }
 
+if !canDraw exit;
 
 var pct;
 if state == playerState.dash then pct = 60
@@ -30,4 +31,4 @@ if percent_chance(pct)
 	}  
 }
 
-draw_text(x,y+20,"state: " + string(state) + "\dir: " + string(dir) + "\nx: " + string(xTarget))
+//draw_text(x,y+20,"state: " + string(state) + "\dir: " + string(dir) + "\nx: " + string(xTarget))

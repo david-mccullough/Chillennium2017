@@ -1,5 +1,5 @@
 //determine if 2d or 3d
-
+if !canDraw exit;
 switch (parentType)
 {
 	case objObject:
@@ -20,7 +20,7 @@ switch (parentType)
 	case objEntity:
 
 
-		if identity == O_ENEMYBA || identity == O_ENEMYBB
+		if is3D
 		{
 			shader_set(shSaturation);
 			shader_set_uniform_f(saturation, var_saturation);

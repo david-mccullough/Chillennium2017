@@ -18,3 +18,4 @@ dashCool = room_speed;
 action = false;
 
 hp = 3;
+is3D = true;
