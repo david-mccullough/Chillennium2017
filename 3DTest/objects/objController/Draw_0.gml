@@ -1,5 +1,5 @@
 /// @description draw objects via depth grid
-
+draw_text(32,32,string(global.phase))
 if ds_exists(global.depthGrid, ds_type_grid)
 {
 	///  Add all instances to grid ///

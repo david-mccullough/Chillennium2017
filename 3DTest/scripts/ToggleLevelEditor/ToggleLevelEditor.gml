@@ -1,5 +1,5 @@
 /// Enable
-if !global.levelEditorEnabled
+if argument0
 {
 	//show_debug_overlay(true)
 	instance_activate_object(objLevelEditor)

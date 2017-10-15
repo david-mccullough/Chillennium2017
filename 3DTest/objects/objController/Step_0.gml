@@ -13,7 +13,15 @@ else if keyboard_check_pressed(vk_add)
 
 if keyboard_check_pressed(vk_enter)
 {
-	game_restart()
+	if global.levelEditorEnabled
+	{ 
+		LevelSave();
+		game_restart();
+	}
+	else
+	{
+		game_restart();		
+	}
 }
 if keyboard_check_pressed(vk_escape)
 {

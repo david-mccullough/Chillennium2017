@@ -120,7 +120,13 @@ draw_set_font(F_DEBUG)
 	ds_list_add(global.entObjects,O_ENEMYTA);
 	#macro O_ENEMYTB	"ETripleB"
 	ds_map_add(global.objectMap, O_ENEMYTB, objETripleB);
-	ds_list_add(global.entObjects,O_ENEMYTB);	
+	ds_list_add(global.entObjects,O_ENEMYTB);
+	#macro O_ENEMYBA	"EBossA"
+	ds_map_add(global.objectMap, O_ENEMYBA, objEBossA);
+	ds_list_add(global.entObjects,O_ENEMYBA);
+	#macro O_ENEMYBB	"EBossB"
+	ds_map_add(global.objectMap, O_ENEMYBB, objEBossB);
+	ds_list_add(global.entObjects,O_ENEMYBB);
 	
 	#endregion
 	
@@ -147,10 +153,11 @@ ds_list_sort(global.miscObjects,1);
 #macro LOAD_INCLUDED_LEVELDATA false //do NOT touch this -david (keep to false)
 
 global.levelEditorEnabled = false;
-ToggleLevelEditor(); // toggle levelEditor on
-if global.levelEditorEnabled = false && instance_exists(objLevelEditor)
+
+if global.levelEditorEnabled
 {
-	instance_destroy(objLevelEditor)
+	instance_create_depth(-64,-64,0,objLevelEditor)
+	ToggleLevelEditor(global.levelEditorEnabled); // toggle levelEditor on
 }
 
 #endregion
@@ -206,3 +213,4 @@ else if LOAD_INCLUDED_LEVELDATA
 global.levels = ds_list_create();
 //LoadLevelList();
 
+global.phase = 3;

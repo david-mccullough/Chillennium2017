@@ -22,14 +22,24 @@ else
     stickTo = noone;
 }
 
+image_xscale*=.98;
+image_yscale*=.98;
 if floatUp
 {
 	y-=.2
-	image_xscale*=.98;
-	image_yscale*=.98;
+
+}
+if spread
+{
+	x+=lengthdir_y(spd,dir)
+	y+=lengthdir_y(spd,dir)
+	spd = smooth_approach(spd,.2,.1);
 }
 
 
-
+if (hp <= 0 or image_xscale < 0.1)
+{
+    instance_destroy();
+}
 
 

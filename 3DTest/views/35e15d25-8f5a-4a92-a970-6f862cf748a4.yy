@@ -26,6 +26,9 @@
         "088925f2-a097-4ec9-8084-46d98377f53d",
         "06bddad5-3b08-4307-a7d8-1e69cd6cb255",
         "8f160a4a-2b59-4721-b8f4-fa77b017d8c3"
+        "81ddb0c1-c287-46f4-9f71-df1c4a15491a",
+        "2ebc08c3-7723-4ad7-8e1e-14d06c10ee03",
+        "4f559bb1-bb09-4657-8518-417d43a352b4"
     ],
     "filterType": "GMSprite",
     "folderName": "3D",

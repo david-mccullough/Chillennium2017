@@ -1,0 +1,2 @@
+Converting GML script : display_mouse_lock.gml
+Converted description : /// @description  (): Returns the current mouse' lock bounds (if any)./// @function

@@ -3,7 +3,7 @@
 
 if !global.levelEditorEnabled
 {
-	for (var i = 2; i >= control.hp; i--)
+	for (var i = 2; i >= student.hp; i--)
 	{
 		hpHearts[i].image_index = 1;
 	}

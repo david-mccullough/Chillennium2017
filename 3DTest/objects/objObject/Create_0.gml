@@ -1,4 +1,5 @@
 /// @description 
+event_inherited()
 editState = editorState.idle;
 drawColor = c_white;
 //get identity from object name

@@ -24,11 +24,17 @@ velocity = vect2(0,0);
 steering = vect2(0,0);
 
 //Camera movement and tracking.
-max_speed = .5;
-max_force = .05;
-max_distance = vect2(50,20);
+max_speed = 1;
+max_force = .1;
+max_distance = vect2(2000,2000);
 
-approach_distance = 40;
+spd1 = 0.03
+spd2 = 0.06
+vel = spd1;
+
+
+approach_distance = 64;
+quick_distance = 200;
 
 camera_margin=0; //Never get closer than 8 pixels to the edge of the room.
 

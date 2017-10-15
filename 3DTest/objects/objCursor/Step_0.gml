@@ -1,5 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
+if !global.levelEditorEnabled
+{
+	if (window_has_focus()) {
+	    display_mouse_lock(window_get_x(), window_get_y(), window_get_width(), window_get_height());
+	} else display_mouse_unlock();
+}
+
 x = round(mouse_x);
 y = round(mouse_y);
 
@@ -9,7 +16,7 @@ event_user(10);
 
 if !gui
 {
-
+/*
 if instance_exists(objPlayer)
 {
 	switch(objPlayer.control.state)
@@ -30,7 +37,7 @@ if instance_exists(objPlayer)
 else
 {
 	sprite_index = sprCursor
-}
+}*/
 
 switch state
 {

@@ -11,11 +11,11 @@ dashSpeed = 4;
 dashDecelStart = 0.05;
 dashDecelEnd = .08
 dashDecelStep = .01
-dashDist = 32
+dashDist = 56
 
 canDamage = true
 
-aggroDist = 160
+aggroDist = 512
 
 state = playerState.idle
 

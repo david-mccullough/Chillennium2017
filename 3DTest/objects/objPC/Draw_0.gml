@@ -5,8 +5,13 @@ if global.levelEditorEnabled
 	exit;
 }
 
+if !canDraw exit;
 
-if percent_chance(40) && state = playerState.dash
+var pct;
+if state == playerState.dash then pct = 60
+else
+pct = 5
+if percent_chance(pct)
 {
 	repeat(choose(2,3,4))
 	{
@@ -25,3 +30,5 @@ if percent_chance(40) && state = playerState.dash
 	    }
 	}  
 }
+
+//draw_text(x,y+20,"state: " + string(state) + "\dir: " + string(dir) + "\nx: " + string(xTarget))

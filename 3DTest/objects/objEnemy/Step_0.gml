@@ -85,3 +85,9 @@ else
 {
 	var_saturation = -1;
 }
+
+/*var hit = instance_place(x,y,objEnemy)
+if hit != noone
+{
+	
+}
