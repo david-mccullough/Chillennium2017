@@ -11,7 +11,9 @@
         "6dcb9701-0d01-4b43-8827-c12a39463b5b",
         "cd17c287-4900-4943-a602-ad2ba3616482",
         "6d7dc61a-9f4b-4ffb-9e83-af40b7c674ed",
-        "0c222581-bfdf-46c6-b508-6c8f6976cfe4"
+        "0c222581-bfdf-46c6-b508-6c8f6976cfe4",
+        "0117176c-9a3d-406d-8da9-80f2f16020a6",
+        "7f62c10e-9d64-443f-aecd-c74385c1e360"
     ],
     "filterType": "GMSprite",
     "folderName": "2D",

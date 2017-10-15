@@ -151,6 +151,7 @@ with editPanel
 	uiSlideX = guix + uiWidth*.91;
 	uiSlideY = guiy;
 	uiSlideSpeed = 0.15
+	uiSlideFreeze = true
 }
 
 //resourcePanelGroup (container for panels for d3d, d2d, entities, and other resource type)

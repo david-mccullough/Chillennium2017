@@ -4,5 +4,5 @@ var _bor=0;
 if(argument_count > 0)
 	_bor=argument[0];
 	
-view_x=clamp(view_x,_bor,room_width-_bor-view_w);
-view_y=clamp(view_y,_bor,room_height-_bor-view_h);
+//view_x=clamp(view_x,_bor,room_width-_bor-view_w);
+//view_y=clamp(view_y,_bor,room_height-_bor-view_h);

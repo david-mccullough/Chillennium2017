@@ -73,12 +73,12 @@ if(timer < screen_shake_start+screen_shake_length && screen_shake_amp > 0)
 //Enforce our max distance
 if(instance_exists(follow_target))
 {
-	view_x = clamp(view_x,_x-max_distance[0],_x+max_distance[0]);
-	view_y = clamp(view_y,_y-max_distance[0],_y+max_distance[0]);
+	//view_x = clamp(view_x,_x-max_distance[0],_x+max_distance[0]);
+	//view_y = clamp(view_y,_y-max_distance[0],_y+max_distance[0]);
 }
 	
 //Finally, set camera Position (ALWAYS DO LAST)
-view_clamp_to_room(camera_margin);
+//view_clamp_to_room(-512);
 
 if(view_visible[0])
 {

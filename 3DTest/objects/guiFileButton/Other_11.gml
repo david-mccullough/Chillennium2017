@@ -14,7 +14,7 @@ switch(text)
 		break;
 		
 	case "Resources":
-		objLevelEditor.editPanel.uiSlideFreeze = !objLevelEditor.editPanel.uiSlideFreeze
+		PanelToggle(objLevelEditor.editPanel,!objLevelEditor.editPanel.uiVisible);
 		break;
 		
 	case "Options":

@@ -21,17 +21,11 @@ draw_set_font(F_DEBUG)
 	global.d3dObjects = ds_list_create();
 	
 	#macro O_DCRATE		"3dCrate"
-	global.objectMap[? O_DCRATE] = obj3D;
+	ds_map_add(global.objectMap, O_DCRATE, obj3D);
 	ds_list_add(global.d3dObjects, O_DCRATE);
 	#macro O_DGRASS		"3dGrass"
 	ds_map_add(global.objectMap, O_DGRASS, obj3D);
 	ds_list_add(global.d3dObjects, O_DGRASS);
-	#macro O_DTREE		"3dTree"
-	ds_map_add(global.objectMap, O_DTREE, obj3D);
-	ds_list_add(global.d3dObjects, O_DTREE);
-	#macro O_DBUCKET	"3dBucket"
-	ds_map_add(global.objectMap, O_DBUCKET, obj3D);
-	ds_list_add(global.d3dObjects, O_DBUCKET);
 	#macro O_DBARREL1	"3dWoodenBarrel"
 	ds_map_add(global.objectMap, O_DBARREL1, obj3D);
 	ds_list_add(global.d3dObjects, O_DBARREL1);
@@ -62,9 +56,6 @@ draw_set_font(F_DEBUG)
 	#macro O_DLANTERN1	"3dLantern1"
 	ds_map_add(global.objectMap, O_DLANTERN1, obj3D);
 	ds_list_add(global.d3dObjects, O_DLANTERN1);
-	#macro O_DBLOB1	"3dBlob1"
-	ds_map_add(global.objectMap, O_DBLOB1, obj3D);
-	ds_list_add(global.d3dObjects, O_DBLOB1);
 	#macro O_DBUSH2	"3dBush2"
 	ds_map_add(global.objectMap, O_DBUSH2, obj3D);
 	ds_list_add(global.d3dObjects, O_DBUSH2);
@@ -74,7 +65,18 @@ draw_set_font(F_DEBUG)
 	#macro O_DCOTTAGE1	"3dCottage1"
 	ds_map_add(global.objectMap, O_DCOTTAGE1, obj3D);
 	ds_list_add(global.d3dObjects, O_DCOTTAGE1);
-	
+	#macro O_DSTUDENT1	"3dStudent1"
+	ds_map_add(global.objectMap, O_DSTUDENT1, obj3D);
+	ds_list_add(global.d3dObjects, O_DSTUDENT1);
+	#macro O_DMENTOR1	"3dMentor1"
+	ds_map_add(global.objectMap, O_DMENTOR1, obj3D);
+	ds_list_add(global.d3dObjects, O_DMENTOR1);
+	#macro O_DENEMY1	"3dEnemy1"
+	ds_map_add(global.objectMap, O_DENEMY1, obj3D);
+	ds_list_add(global.d3dObjects, O_DENEMY1);
+	#macro O_DWALL	"3dWall"
+	ds_map_add(global.objectMap, O_DWALL, obj3D);
+	ds_list_add(global.d3dObjects, O_DWALL);
 	#endregion
 	
 	#region //2D
@@ -83,6 +85,12 @@ draw_set_font(F_DEBUG)
 	#macro O_PUDDLE		"Puddle"
 	ds_map_add(global.objectMap, O_PUDDLE, objGround);
 	ds_list_add(global.d2dObjects,O_PUDDLE);
+	#macro O_BLOB1		"Blob1"
+	ds_map_add(global.objectMap, O_BLOB1, obj2D);
+	ds_list_add(global.d2dObjects,O_BLOB1);
+	#macro O_SMALLBLOB1		"SmallBlob1"
+	ds_map_add(global.objectMap, O_SMALLBLOB1, obj2D);
+	ds_list_add(global.d2dObjects,O_SMALLBLOB1);
 	
 	#endregion
 	

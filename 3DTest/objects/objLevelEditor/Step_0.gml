@@ -65,8 +65,8 @@ if (mbmHeld)
     view_x = drag_x - (mouse_x - view_x)
     view_y = drag_y - (mouse_y - view_y)
     // make sure view doesn't go outside the room:
-    view_x = max(0, min(view_x, room_width - view_w))
-    view_y = max(0, min(view_y, room_height - view_h))
+    //view_x = max(0, min(view_x, room_width - view_w))
+    //view_y = max(0, min(view_y, room_height - view_h))
 	//camera_set_view_pos(objCameraManager.camera,xpos,ypos)
 }
 
